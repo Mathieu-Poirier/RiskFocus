@@ -24,8 +24,10 @@ git clone https://github.com/Mathieu-Poirier/RiskFocus
 ### Change directory into the repository folder
 
 ```
-cd RiskFocus (should be under your current working directory)
+cd RiskFocus 
 ```
+(Should be under your current working directory)
+
 ### Download the requirements and run the program
 
 ```
