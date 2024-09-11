@@ -19,7 +19,6 @@ First, clone the repository to your local machine using the following command in
 
 ```
 git clone https://github.com/Mathieu-Poirier/RiskFocus
-
 ```
 
 ### Change directory into the repository folder
@@ -31,6 +30,8 @@ cd RiskFocus (should be under your current working directory)
 
 ```
 pip install -r packages.txt
+```
+```
 python beta_scheduler.py
 ```
 ## Initial Version Constraints
