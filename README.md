@@ -1,20 +1,19 @@
-# RiskFocus
-
 ## The Repository
+
 This Python script includes a system for computing a given security's beta using Yahoo finances API. It also mesures a bias factor which can be used to more accurately assess beta with daily close prices.
 
 ## Installation Guide
 
 Follow the steps below to set up and run the Beta Calculator with Yahoo Finance Comparison project on your local machine.
 
-## Prerequisites
+### Prerequisites
 
 Make sure you have the following installed:
 
 - Python 3.6 or higher
 - `pip` (Python package installer)
 
-## Step 1: Clone the Repository
+### Clone the Repository
 
 First, clone the repository to your local machine using the following command in your terminal:
 
@@ -23,12 +22,12 @@ git clone https://github.com/Mathieu-Poirier/RiskFocus
 
 ```
 
-Change directory into the repository folder
+### Change directory into the repository folder
 
 ```
 cd RiskFocus (should be under your current working directory)
 ```
-Download the requirements and run the program
+### Download the requirements and run the program
 
 ```
 pip install -r packages.txt
