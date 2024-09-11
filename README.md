@@ -2,6 +2,26 @@
 
 This Python script includes a system for computing a given security's beta using Yahoo finances API. It also mesures a bias factor which can be used to more accurately assess beta with daily close prices.
 
+## Features
+
+- Automated daily updates: Uses the schedule library to update stock and market prices at a set time each day.
+
+- Beta calculation: Computes beta by calculating the covariance between stock and market prices and dividing by the market variance.
+
+- Comparison with Yahoo Finance: The script fetches Yahoo Finance’s beta and compares it with the calculated beta, offering a bias factor to adjust for discrepancies.
+
+- Error handling: Validates ticker symbols before proceeding to avoid invalid inputs.
+
+## Script Design
+
+- User Input: The user inputs the ticker symbol of the stock they want to analyze.
+
+- Data Fetching: The script retrieves the closing price for both the stock and the S&P 500 (SPY) on a daily basis.
+
+- Beta Calculation: It calculates beta based on the collected historical price data and compares it to Yahoo Finance’s beta.
+
+- Bias Factor: If Yahoo Finance's beta is available, the script suggests a bias factor to correct for any differences between the computed beta and the reported beta.
+
 ## Installation Guide
 
 Follow the steps below to set up and run the Beta Calculator with Yahoo Finance Comparison project on your local machine.
